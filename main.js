@@ -1,7 +1,12 @@
-printHelloWorld=() => {
-    // var a = document.getElementsById("printPart").innerHTML = "Hello World!!";
-    console.log("Hello World!!")
-    document.getElementById("printPart").innerHTML = "Hello World!!";
+var comfirmed;
+
+function ShowWelcome() {
+    alert("Hello, Welcome to my profile.");
+    //x = confirm("Do you want to exit?");
 }
 
-printHelloWorld()
+function ShowConfirm() {
+    confirmed = confirm("Do you want to exit?");
+
+    if(comfirmed == false) window.close();
+}
