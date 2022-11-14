@@ -6,7 +6,5 @@ function ShowWelcome() {
 }
 
 function ShowConfirm() {
-    confirmed = confirm("Do you want to exit?");
-
-    if(comfirmed == false) window.close();
+    if(confirm("Do you want to exit?") == false) window.close();
 }
