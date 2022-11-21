@@ -1,10 +1,11 @@
-var comfirmed;
-
 function ShowWelcome() {
-    alert("Hello, Welcome to my profile.");
-    //x = confirm("Do you want to exit?");
+    let profileName = "Jiraech Koedsiri";
+    //let timeStemp = getDate(); 
+
+    alert("Welcome to " + profileName);
 }
 
-function ShowConfirm() {
-    if(confirm("Do you want to exit?") == false) window.close();
+function AskClose() {
+    if (confirm("Do you want to close this web?")) 
+        window.close(); 
 }
